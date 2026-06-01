@@ -32,6 +32,7 @@ Join Telegram
 <section class="section">
 
 <input
+id="searchInput"
 type="text"
 placeholder="🔍 Search Deals..."
 style="
@@ -67,7 +68,7 @@ margin-bottom:20px;
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
 
-<div class="card">
+<div class="card deal-card">
 
 <img src="assets/Boat Airdopes 141 PNG.png"
 style="width:100%;height:220px;object-fit:contain;background:white;padding:10px;border-radius:10px;">
@@ -93,7 +94,7 @@ HOT DEAL
 
 </div>
 
-<div class="card">
+<div class="card deal-card">
 <img src="assets/Noise Smartwatch PNG.png"
 style="width:100%;height:220px;object-fit:contain;background:white;padding:10px;border-radius:10px;">
 <h3>Noise Smartwatch</h3>
@@ -103,7 +104,7 @@ style="width:100%;height:220px;object-fit:contain;background:white;padding:10px;
 <button>View Deal</button>
 </div>
 
-<div class="card">
+<div class="card deal-card">
 <img src="assets/Fire-Boltt Ninja PNG.png"
 style="width:100%;height:220px;object-fit:contain;background:white;padding:10px;border-radius:10px;">
 <h3>Fire-Boltt Ninja</h3>
@@ -132,5 +133,23 @@ margin-top:50px;
 </p>
 
 </footer>
+<script>
+const searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("keyup", function() {
+    let filter = searchInput.value.toLowerCase();
+    let cards = document.querySelectorAll(".deal-card");
+
+    cards.forEach(card => {
+        let text = card.innerText.toLowerCase();
+
+        if(text.includes(filter)){
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
+</script>
 </body>
 </html>
