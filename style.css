@@ -119,3 +119,15 @@ text-align:center;
 }
 
 }
+.card{
+border:1px solid #2a2a2a;
+}
+
+.card h2{
+color:#ff9800;
+margin:10px 0;
+}
+
+.card p{
+margin:5px 0;
+}
