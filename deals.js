@@ -98,6 +98,56 @@ discount: "66% OFF",
 image: "assets/chopper.png",
 category: "home",
 link: "https://fkrt.co/juANfO"
-}
+},
+
+{
+name: "Logitech M221 Wireless Mouse",
+oldPrice: "1295",
+price: "645",
+discount: "50% OFF",
+image: "assets/logitech-m221.png",
+category: "electronics",
+link: "https://amzn-to.co/RNy38V"
+},
+
+{
+name: "SanDisk 64GB Pendrive",
+oldPrice: "1100",
+price: "742",
+discount: "33% OFF",
+image: "assets/sandisk-64gb.png",
+category: "electronics",
+link: "https://fkrt.co/Mwkn2u"
+},
+
+{
+name: "Goboult Ampvault V20 20000 mAh",
+oldPrice: "4499",
+price: "1499",
+discount: "67% OFF",
+image: "assets/goboult-powerbank.png",
+category: "electronics",
+link: "https://fkrt.co/TlNr0S"
+},
+
+{
+name: "Milton stainless steel Bottle",
+oldPrice: "2999",
+price: "1250",
+discount: "58% OFF",
+image: "assets/milton-bottle.png",
+category: "home",
+link: "https://fkrt.co/Q1ImvK"
+},
+
+{
+name: "LED Study Table Lamp",
+oldPrice: "1499",
+price: "362",
+discount: "76% OFF",
+image: "assets/study-lamp.png",
+category: "home",
+link: "https://fkrt.co/ZWHB5H"
+},
 
 ];
