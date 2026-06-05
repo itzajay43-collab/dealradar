@@ -240,3 +240,45 @@ transition:0.3s;
 .search-box button:hover{
 background:#ffb74d;
 }
+@media (max-width: 768px){
+
+.hero{
+flex-direction:column;
+padding:30px 20px;
+text-align:center;
+}
+
+.hero-left,
+.hero-right{
+flex:1;
+width:100%;
+}
+
+.hero h1{
+font-size:48px;
+max-width:100%;
+}
+
+.hero p{
+font-size:18px;
+max-width:100%;
+}
+
+.hero-right img{
+width:320px;
+max-width:100%;
+}
+
+.search-box{
+max-width:100%;
+}
+
+.search-box input{
+font-size:16px;
+}
+
+.search-box button{
+padding:16px 25px;
+}
+
+}
