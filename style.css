@@ -158,18 +158,18 @@ gap:20px;
 }
 
 .hero-left{
-flex:1;
+flex:0.8;
 }
 
 .hero-right{
-flex:1;
+flex:1.2;
 display:flex;
 justify-content:center;
 align-items:center;
 }
 
 .hero-right img{
-width:650px;
+width:800px;
 max-width:none;
 height:auto;
 }
