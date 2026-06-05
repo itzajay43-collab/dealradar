@@ -149,3 +149,94 @@ transition:0.3s;
 transform:translateY(-3px);
 box-shadow:0 0 20px rgba(255,152,0,0.5);
 }
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px 80px;
+gap:50px;
+}
+
+.hero-left{
+flex:1;
+}
+
+.hero-right{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.hero-right img{
+width:450px;
+max-width:100%;
+height:auto;
+}
+
+.hero h1{
+font-size:72px;
+line-height:1.1;
+font-weight:800;
+margin-bottom:15px;
+}
+
+.hero h1 span{
+color:#ff9800;
+}
+
+.hero p{
+font-size:20px;
+color:#ccc;
+margin-top:15px;
+line-height:1.6;
+max-width:650px;
+}
+
+.verified-badge{
+display:inline-block;
+padding:12px 20px;
+border:1px solid #333;
+border-radius:30px;
+margin-bottom:20px;
+font-weight:600;
+background:#111;
+color:#ff9800;
+}
+
+.search-box{
+display:flex;
+max-width:700px;
+margin-top:30px;
+}
+
+.search-box input{
+flex:1;
+padding:18px 20px;
+font-size:18px;
+background:#111;
+color:white;
+border:1px solid #333;
+border-radius:15px 0 0 15px;
+outline:none;
+}
+
+.search-box input::placeholder{
+color:#888;
+}
+
+.search-box button{
+padding:18px 35px;
+background:#ff9800;
+color:black;
+border:none;
+font-size:18px;
+font-weight:bold;
+border-radius:0 15px 15px 0;
+cursor:pointer;
+transition:0.3s;
+}
+
+.search-box button:hover{
+background:#ffb74d;
+}
