@@ -422,6 +422,7 @@ padding:25px;
 text-align:center;
 transition:.3s;
 cursor:pointer;
+min-height:220px;
 }
 
 .category-card:hover{
@@ -431,11 +432,13 @@ border-color:#ff9800;
 }
 
 .category-card img{
-width:70px;
-height:70px;
+width:60px !important;
+height:60px !important;
 object-fit:contain;
-margin-bottom:15px;
-background:none;
+display:block;
+margin:0 auto 15px auto;
+background:transparent !important;
+padding:0 !important;
 }
 
 .category-card h3{
