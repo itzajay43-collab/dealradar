@@ -8,6 +8,7 @@ font-family:Arial,sans-serif;
 body{
 background:#111;
 color:white;
+overflow-x:hidden;
 }
 
 header{
@@ -153,12 +154,15 @@ box-shadow:0 0 20px rgba(255,152,0,0.5);
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:40px 80px;
-gap:20px;
+padding:40px;
+gap:40px;
+max-width:1400px;
+margin:auto;
 }
 
 .hero-left{
-flex:0.8;
+flex:1;
+min-width:0;
 }
 
 .hero-right{
@@ -169,8 +173,8 @@ align-items:center;
 }
 
 .hero-right img{
-width:800px;
-max-width:none;
+width:100%;
+max-width:650px;
 height:auto;
 }
 
