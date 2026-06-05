@@ -153,8 +153,8 @@ box-shadow:0 0 20px rgba(255,152,0,0.5);
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:60px 80px;
-gap:50px;
+padding:40px 80px;
+gap:20px;
 }
 
 .hero-left{
@@ -175,7 +175,7 @@ height:auto;
 }
 
 .hero h1{
-font-size:72px;
+font-size:88px;
 line-height:1.1;
 font-weight:800;
 margin-bottom:15px;
