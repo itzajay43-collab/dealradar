@@ -300,3 +300,17 @@ padding:10px;
 font-weight:700;
 font-size:14px;
 }
+body{
+overflow-x:hidden;
+}
+
+#dealsContainer{
+width:100%;
+max-width:1400px;
+margin:auto;
+}
+
+.hero{
+max-width:1400px;
+margin:auto;
+}
