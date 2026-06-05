@@ -314,3 +314,46 @@ margin:auto;
 max-width:1400px;
 margin:auto;
 }
+.navbar{
+display:flex;
+gap:30px;
+align-items:center;
+}
+
+.navbar a{
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:500;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#ff9800;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:#161616;
+}
+
+.logo span{
+font-size:28px;
+font-weight:700;
+color:#ff9800;
+}
+
+@media (max-width:768px){
+
+.navbar{
+display:none;
+}
+
+header{
+padding:15px 20px;
+}
+
+}
