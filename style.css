@@ -169,8 +169,8 @@ align-items:center;
 }
 
 .hero-right img{
-width:450px;
-max-width:100%;
+width:650px;
+max-width:none;
 height:auto;
 }
 
