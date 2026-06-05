@@ -175,10 +175,10 @@ height:auto;
 }
 
 .hero h1{
-font-size:88px;
+font-size:68px;
 line-height:1.1;
 font-weight:800;
-margin-bottom:15px;
+max-width:650px;
 }
 
 .hero h1 span{
